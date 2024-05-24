@@ -10,6 +10,12 @@
   --white: #ffffff;
 }
 
+.header-main {
+  border-bottom: 1px solid #e7e9fc;
+}
+.navigation {
+  display: flex;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
