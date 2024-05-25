@@ -17,10 +17,25 @@ body {
 img {
   display: block;
 }
+
 .header-main {
   border-bottom: 1px solid #e7e9fc;
 }
-.navigation {
+.container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.left-nav-container {
+  display: flex;
+}
+.menu {
+  display: flex;
+}
+
+.contact-container {
   display: flex;
 }
 .logo {
