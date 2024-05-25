@@ -9,7 +9,14 @@
   --cloud: #f4f4fd;
   --white: #ffffff;
 }
-
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+img {
+  display: block;
+}
 .header-main {
   border-bottom: 1px solid #e7e9fc;
 }
