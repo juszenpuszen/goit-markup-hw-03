@@ -33,13 +33,16 @@ img {
 
 .left-nav-container {
   display: flex;
+  align-items: center;
 }
 .menu {
   display: flex;
+  gap: 40px;
 }
 
 .contact-container {
   display: flex;
+  gap: 40px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -49,6 +52,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 
 .studio-text {
