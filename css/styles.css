@@ -69,16 +69,13 @@ nav {
   text-transform: uppercase;
   color: var(--iris);
   margin-right: 76px;
-  /* align-items: center; */
 }
 
 .studio-text {
   color: var(--navy-blue);
 }
 .nav-links {
-  /* padding: 24px 0; */
-  /* text-decoration: none; */
-  /* list-style-type: none; */
+  padding: 24px 0;
 }
 .nav-links {
   /* display: inline-block; */
