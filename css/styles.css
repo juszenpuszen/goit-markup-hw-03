@@ -153,6 +153,9 @@ a:focus {
 }
 
 /* OUR FEATURES  */
+.to-hide {
+  visibility: hidden;
+}
 .section-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -160,6 +163,7 @@ a:focus {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 .section-description {
   font-family: "Roboto", sans-serif;
@@ -169,6 +173,17 @@ a:focus {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+.features-section {
+  padding: 120px 0;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.feature {
+  width: calc((100% - 72px) / 4);
+}
+/* TEAM */
 .team-section {
   background-color: var(--cloud);
 }
