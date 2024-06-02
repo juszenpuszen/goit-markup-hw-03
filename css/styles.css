@@ -208,6 +208,7 @@ a:focus {
   color: var(--navy-blue);
   margin-bottom: 72px;
 }
+
 .members-list {
   display: flex;
   gap: 24px;
@@ -219,7 +220,7 @@ a:focus {
   border-bottom-right-radius: 4px;
 }
 .personal-details {
-  margin: 32px 0;
+  margin: 32px 16px;
 }
 .member-name {
   margin-bottom: 8px;
@@ -230,7 +231,19 @@ a:focus {
 }
 
 /* PORTFOLIO  */
+.portfolio-section {
+  padding: 120px 0;
+}
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+portf-border {
+  border: 10px solid red;
+}
 /* FOOTER  */
 .footer-slogan {
   /* font-family: "Roboto", sans-serif;
