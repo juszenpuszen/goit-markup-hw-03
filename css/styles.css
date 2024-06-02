@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -9,6 +13,7 @@
   --cloud: #f4f4fd;
   --white: #ffffff;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -17,13 +22,11 @@ body {
 img {
   display: block;
 }
-
-.header-main {
-  border-bottom: 1px solid #e7e9fc;
+ul {
+  list-style-type: none;
 }
-
-.header-container {
-  display: flex;
+a {
+  text-decoration: none;
 }
 .container {
   width: 1158px;
@@ -31,17 +34,29 @@ img {
   padding: 0 15px;
 }
 
-.left-nav-container {
+.header-main {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  padding: 24px 0;
+}
+nav {
   display: flex;
   align-items: center;
 }
+
+.left-nav-container {
+  display: flex;
+}
+
 .menu {
   display: flex;
   gap: 40px;
+  margin-right: 332px;
 }
-.nav-links {
-  padding: 24px 0;
-}
+
 .contact-container {
   display: flex;
   gap: 40px;
@@ -55,12 +70,19 @@ img {
   text-transform: uppercase;
   color: var(--iris);
   margin-right: 76px;
+  /* align-items: center; */
 }
 
 .studio-text {
   color: var(--navy-blue);
 }
 .nav-links {
+  /* padding: 24px 0; */
+  /* text-decoration: none; */
+  /* list-style-type: none; */
+}
+.nav-links {
+  /* display: inline-block; */
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -68,6 +90,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+
 a:hover {
   color: var(--ocean);
 }
@@ -99,8 +122,8 @@ a:focus {
   letter-spacing: 0.02em;
   color: var(--white);
   text-align: center;
-  max-width: 496px;
 }
+
 .order-button {
   padding: 16px 32px;
 }
