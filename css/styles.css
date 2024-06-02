@@ -44,7 +44,6 @@ a {
 }
 nav {
   display: flex;
-  align-items: center;
 }
 
 .left-nav-container {
