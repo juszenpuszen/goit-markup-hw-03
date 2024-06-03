@@ -222,7 +222,6 @@ a:focus {
   border-bottom-right-radius: 4px;
 }
 .personal-details {
-  /* jeśli padding niżej będzie git to usunąć - margin: 32px 0; */
   padding: 32px 0;
 }
 .member-name {
