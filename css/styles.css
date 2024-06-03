@@ -222,7 +222,7 @@ a:focus {
   border-bottom-right-radius: 4px;
 }
 .personal-details {
-  margin: 32px 0px;
+  margin: 32px 0;
 }
 .member-name {
   margin-bottom: 8px;
@@ -236,7 +236,9 @@ a:focus {
 .portfolio-section {
   padding: 120px 0;
 }
-
+.section-description {
+  margin-bottom: 8px;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
